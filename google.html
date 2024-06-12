@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url("../Images/Screenshot\ 2024-05-03\ 145631\ new.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #top{
+            margin-left: 1290px;
+            margin-top: 20px;
+        }
+        .top-items{
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .top-items:hover{
+            text-decoration: underline;
+        }
+        .bg{
+            width: 20px;
+            height: 20px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40%;
+        }
+        .bg:hover{
+            background-color: grey;
+        }
+        .middle-items{
+            color: white;
+            font-size: 80px;
+            text-align: center;
+            margin-top: 150px;
+        }
+        h1{
+            font-family: sans-serif;font-weight: 500;
+            
+        }
+        input{
+            border-radius: 50px;
+            margin-left: 500px;
+            width: 500px;
+            height: 50px;
+            padding-left: 50px;
+        }
+        .logo{
+            position: absolute;
+        }
+        .plus{
+            position: absolute;
+            top: 450px;
+            left: 750px;
+            font-size: 30px;
+        }
+        #box:hover{
+            background-color: rgba(255, 255, 255, 0.159);
+        }
+        .bottom{
+            margin-top: 150px;
+            margin-left: 1000px;
+        }
+        .bottom-items{
+            
+            margin-left: 1450px;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        .bottom-items:hover{
+            background-color: grey;
+        }
+        #link{
+            color: white;
+            margin-top: 50px ;
+            width: 180px;
+            height: fit-content;
+            display: flex;
+            padding-left: 10px;
+            margin-bottom: 10px;
+            padding-right: 10px;
+            background-color: rgba(0, 0, 0, 0.784);
+        }
+        #link:hover{
+            background-color: rgba(0, 0, 0, 0);
+    </style>
+</head>
+<body>
+    <div id="top">
+        <a href="https://www.gmail.com" class="top-items">Gmail</a>
+        <a href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl" class="top-items">Images</a>
+        <a class="bg" href="https://labs.google.com/" class="top-items"><i class="fa-solid fa-flask top-items"></i></a>
+        <a class="bg" href="https://about.google/products/?tab=rh"><i class="fa-solid fa-bars top-items"></i></a>
+        <a class="bg" href="https://www.google.com/account"><i class="fa-regular fa-user top-items"></i></a>
+    </div>
+    <div id="middle">
+        <h1 class="middle-items">Google</h1><br><br>
+        <input type="text" placeholder="Search Google or type a URL">
+        <i class="fa-solid fa-magnifying-glass logo" style="left: 520px; top: 335px;"></i>
+        <i class="fa-solid fa-microphone logo" style="left: 980px; top: 335px;"></i>
+        <i class="fa-solid fa-camera logo" style="left: 1015px; top: 335px;"></i>
+        <div style="background-color: white; width: 90px; height: 90px; margin-left: 720px; margin-top: 50px; border-radius: 50%;">
+            <i class="fa-solid fa-plus plus"></i>
+        </div>
+        <p style="margin-left: 720px; color: white; margin-top: 10px;">Add shortcut</p>
+        <div id="box" style=" width: 110px; height: 140px; margin-left: 710px; margin-top: 60px; position: absolute;top: 350px;"></div>
+    </div>
+    <div id="bottom" style="margin-top: 75px;">
+        <a id="link" href=""><i class="fa-solid fa-link"></i>Photo by Allad Scager</a>
+        <a href=""><i class="fa-solid fa-pen bottom-items"></i></a>
+    </div>
+</body>
+</html>
